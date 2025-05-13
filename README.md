@@ -26,4 +26,11 @@ elliptic curve cryptography (ecc) and advanced encryption standard in galois/cou
 5. select your encryption mode.  
 6. encrypt or decrypt messages/files as needed.  
 
-pro tip: if you're encrypting files for personal use, you can set yourself as the recipient by copying and pasting your own public key.
+## other tips and tricks:
+1. you can private, public, and recipient's public keys using aes-cbc encryption and don't worry about giving the recipient your public again or don't need to get the recipient's public key again
+2. gui is very easy and scalable, the font size, heigth and width of all scrolled texts.
+3. if you're encrypting files for personal use, you can set yourself as the recipient by copying and pasting your own public key.
+4. can auto-generate passwords for you so all you gotta do is write it down somewhere safe and you would not worry about it later.
+
+## disadvantages
+1. if you lose your private and public keys (or just dont save the .keys file when you encrypt your own files) there is no way in hell you are getting them back.

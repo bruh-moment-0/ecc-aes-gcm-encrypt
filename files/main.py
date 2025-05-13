@@ -6,7 +6,7 @@ import secrets
 import string
 import logging
 import threading
-from tkinter import Tk, Menu, Frame, Label, Button, BooleanVar, StringVar, filedialog, messagebox, simpledialog, WORD, PhotoImage, scrolledtext, END, Entry, Checkbutton
+from tkinter import Tk, Menu, Frame, Label, Button, BooleanVar, StringVar, filedialog, messagebox, simpledialog, WORD, CHAR, PhotoImage, scrolledtext, END, Entry, Checkbutton
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -781,15 +781,15 @@ setlayout("right")
 Label(mainframe, text="Elliptic Curve Cryptography (ECC)\nand Advanced Encryption Standard in Galois/Counter Mode (AES-GCM)\nfor Sending and Receiving Encrypted Messages and Files\nGraphical User Interface Version: 3\nBuilt: 13/03/2025").grid(row=0, column=0)
 privatekeyarealabel = Label(mainframe, text="Private key is hidden.")
 privatekeyarealabel.grid(row=1, column=0)
-privatekeyarea = scrolledtext.ScrolledText(mainframe, wrap=WORD, width=30, state="disabled", height=7, font=("Times New Roman", 10))
+privatekeyarea = scrolledtext.ScrolledText(mainframe, wrap=CHAR, width=30, state="disabled", height=7, font=("Times New Roman", 10))
 privatekeyarea.grid(row=1, column=0)
 privatekeyarea.grid_forget()
-publickeyarea = scrolledtext.ScrolledText(mainframe, wrap=WORD, width=28, state="disabled", height=7, font=("Times New Roman", 10))
+publickeyarea = scrolledtext.ScrolledText(mainframe, wrap=CHAR, width=28, state="disabled", height=7, font=("Times New Roman", 10))
 publickeyarea.grid(row=1, column=1)
 keygenbutton = Button(mainframe, text="GENERATE KEYS", command=generatekeys)
 keygenbutton.grid(row=1, column=2)
 Label(mainframe, text="PRIVATE KEY           PUBLIC KEY\n\n             RECEIVER PUBLIC KEY").grid(row=2, column=0)
-otherpublickeyarea = scrolledtext.ScrolledText(mainframe, wrap=WORD, width=28, height=7, font=("Times New Roman", 10))
+otherpublickeyarea = scrolledtext.ScrolledText(mainframe, wrap=CHAR, width=28, height=7, font=("Times New Roman", 10))
 otherpublickeyarea.grid(row=2, column=1)
 otherpublickeybutton = Button(mainframe, text="SET RECEIVER", command=setotherpublic)
 otherpublickeybutton.grid(row=2, column=2)

@@ -1,4 +1,4 @@
-### 📌 [Moving on to Customtkinter! You can try the beta version here.](https://github.com/bruh-moment-0/ecc-aes-gcm-encrypt/releases/tag/beta)
+### 📌 [Trying to move on to CustomTkinter! You can try the beta version here.](https://github.com/bruh-moment-0/ecc-aes-gcm-encrypt/releases/tag/beta)
 
 # ecc-aes-gcm encrypt  
 elliptic curve cryptography (ecc) and advanced encryption standard in galois/counter mode (aes-gcm) for secure message and file encryption, featuring a graphical user interface.  

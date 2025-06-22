@@ -37,6 +37,7 @@ elliptic curve cryptography (ecc) and advanced encryption standard in galois/cou
 
 ## attributions
 [System Lock Screen icon](https://icon-icons.com/icon/system-lock-screen/104198) by [Jeremiah Foster](https://www.jeremiahfoster.com/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 `os`, `json`, `time`, `base64`, `secrets`, `string`, `logging`, `threading`, `tkinter` are distributed under the [Python Software Foundation License](https://docs.python.org/3/license.html).
 
 [`cryptography`](https://pypi.org/project/cryptography/) library is dual‑licensed under [Apache‑2.0](https://www.apache.org/licenses/LICENSE-2.0) **OR** [BSD‑3‑Clause](https://opensource.org/licenses/BSD-3-Clause) 

@@ -35,5 +35,6 @@ elliptic curve cryptography (ecc) and advanced encryption standard in galois/cou
 ## disadvantages
 1. if you lose your private and public keys (or just dont save the .keys file when you encrypt your own files) there is no way in hell you are getting them back.
 
+## attributions
 [System Lock Screen icon](https://icon-icons.com/icon/system-lock-screen/104198) by [Jeremiah Foster](https://www.jeremiahfoster.com/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

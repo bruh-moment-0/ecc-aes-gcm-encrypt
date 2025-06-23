@@ -21,7 +21,7 @@ elliptic curve cryptography (ecc) and advanced encryption standard in galois/cou
 3. launch `main.py` to start the application.
 or just use .exe distribution
 
-If you get a virus warning on the .exe version, check [#1](https://github.com/bruh-moment-0/ecc-aes-gcm-encrypt/issues/1)
+### ⚠️ If you get a virus warning on the .exe version, check [#1](https://github.com/bruh-moment-0/ecc-aes-gcm-encrypt/issues/1)
 
 ## how to use it  
 1. complete the initial setup.  

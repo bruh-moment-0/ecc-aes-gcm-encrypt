@@ -18,7 +18,10 @@ elliptic curve cryptography (ecc) and advanced encryption standard in galois/cou
 ## how to run it  
 1. install python (minimum requirement: python 3.6) from [python.org](https://www.python.org/downloads/).  
 2. run `installer.py` to install the required dependencies.  
-3. launch `main.py` to start the application.  
+3. launch `main.py` to start the application.
+or just use .exe distribution
+
+If you get a virus warning on the .exe version, check [#1](https://github.com/bruh-moment-0/ecc-aes-gcm-encrypt/issues/1)
 
 ## how to use it  
 1. complete the initial setup.  

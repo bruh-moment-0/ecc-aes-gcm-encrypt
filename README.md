@@ -1,6 +1,8 @@
 # ecc-aes-gcm encrypt  
 elliptic curve cryptography (ecc) and advanced encryption standard in galois/counter mode (aes-gcm) for secure message and file encryption, featuring a graphical user interface.  
 
+### 📌 Customtkinter moved [here](https://github.com/omerdynasty/ecc-aes-gcm-encrypt-ctk)!
+
 ## features  
 - highly secure – if you protect your private key, not even the cia, fbi, nsa, or any other entity can decrypt your data (at least until quantum computing breaks current encryption standards).  
 - user-friendly – simple tkinter-based gui.  
